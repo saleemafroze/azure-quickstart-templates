@@ -4,12 +4,6 @@ variables:
 trigger:
 - none
 
-- name: env
-  displayName: Env
-  default: cdt
-  values:
-  - cdt
-
 pool:
   vmImage: 'ubuntu-latest'
 
